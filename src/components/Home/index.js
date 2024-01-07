@@ -4,10 +4,13 @@ import styles from "./Home.module.css";
 //assets
 import search from "../../assets/vuesax/linear/search-normal.png";
 
+//сomponents
 import { Lists } from "../Lists";
-import { useGetMovies } from "../../hooks/useGetMovies";
 import { MovieCard } from "../MovieCard";
 import Input from "../elements/input";
+
+//hooks
+import { useGetMovies } from "../../hooks/useGetMovies";
 import { UseSearchValue } from "../../hooks/useSearchValue";
 
 export const Home = () => {

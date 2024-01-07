@@ -17,13 +17,17 @@ import { useGetAllMovies } from "../../hooks/useGetAllMovies";
 //components
 import { MovieCard } from "../MovieCard";
 import { Lists } from "../Lists";
-import { UseSearchValue } from "../../hooks/useSearchValue";
 import Input from "../elements/input";
 
+//hooks
+import { UseSearchValue } from "../../hooks/useSearchValue";
+
 export const MoviesPages = () => {
-  const [searchValue, onSearchHandle] = UseSearchValue("");
   const [currentPage, setCurrentPage] = useState(1);
+
+  const [searchValue, onSearchHandle] = UseSearchValue("");
   const { data, isFetchedAfterMount } = useGetAllMovies(currentPage);
+
   const moviesJSX = data?.results
     ?.filter(
       (item) =>

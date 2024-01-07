@@ -1,10 +1,13 @@
+//Core
+import { Link } from "react-router-dom";
+
 //styles
 import styles from "./Error.module.css";
 
 //assets
 import { ErrorSVG } from "../../assets/svg/errorSvg";
 import button from "../../assets/Button.png";
-import { Link } from "react-router-dom";
+
 export const Error = () => {
   return (
     <div className={styles["error"]}>

@@ -1,5 +1,7 @@
 //Core
 import { useParams } from "react-router-dom";
+
+//hooks
 import { useGetMovieInfo } from "../../hooks/useGetMovieInfo";
 
 //styles
@@ -10,11 +12,10 @@ import star from "../../assets/vuesax/linear/star.png";
 
 export const MovieInfo = () => {
   const params = useParams();
+
   const { data } = useGetMovieInfo(params.idFilm);
 
-  console.log(data);
   const genresString = data?.genres?.map((genre) => genre.name).join(", ");
-  console.log(genresString);
 
   return (
     <div className={styles["movie-info"]}>
@@ -56,7 +57,7 @@ export const MovieInfo = () => {
           </div>
           <div className={styles["movie-genres"]}>
             <h2>Genres</h2>
-            <p> {data?.genres?.map((genre) => genre.name).join(", ")}</p>
+            <p> {genresString}</p>
           </div>
         </div>
       </div>
