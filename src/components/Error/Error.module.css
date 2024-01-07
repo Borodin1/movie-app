@@ -1,0 +1,39 @@
+.error {
+  margin-top: 50px;
+}
+
+.error-img {
+  display: flex;
+  justify-content: center;
+}
+
+.error-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-text h1 {
+  color: var(--grey-50, #ebeef5);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+}
+
+.error-text p {
+  color: var(--grey-300, #8e95a9);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.error-text img {
+  margin-top: 50px;
+}

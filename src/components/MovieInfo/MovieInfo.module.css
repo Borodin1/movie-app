@@ -1,0 +1,143 @@
+.movie-info-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie-info-background img {
+  width: 1200px;
+}
+
+.movie-path {
+  border-radius: 24px;
+  background: rgba(32, 40, 62, 0.8);
+  backdrop-filter: blur(12px);
+  width: 560px;
+  padding: 30px;
+  margin-top: -80px;
+  margin-left: 350px;
+}
+
+.movie-path p {
+  color: var(--primary-200, #beb7fb);
+
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.movie-path h2 {
+  color: var(--grey-50, #ebeef5);
+
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.64px;
+}
+
+.movie {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.movie-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.movie-description h3 {
+  color: var(--grey-50, #ebeef5);
+
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.36px;
+}
+
+.movie-description p {
+  width: 480px;
+  color: var(--grey-300, #8e95a9);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.movie-ratings p {
+  display: flex;
+  width: 59px;
+  padding: 4px 8px;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: var(--black-65, rgba(0, 0, 0, 0.65));
+  backdrop-filter: blur(4px);
+}
+
+.movie-date h2 {
+  color: var(--grey-400, #767e94);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.movie-date p {
+  color: var(--grey-100, #c3c8d4);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.movie-runtime h2 {
+  color: var(--grey-400, #767e94);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.movie-runtime p {
+  color: var(--grey-100, #c3c8d4);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.movie-genres h2 {
+  color: var(--grey-400, #767e94);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.movie-genres p {
+  color: var(--grey-100, #c3c8d4);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}

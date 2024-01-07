@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.header-links ul {
+  display: flex;
+}
+
+.header-links li {
+  list-style-type: none;
+  margin-left: 32px;
+}
+
+.header-links li > a {
+  text-decoration: none;
+  color: var(--grey-200, #a8aebf);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
