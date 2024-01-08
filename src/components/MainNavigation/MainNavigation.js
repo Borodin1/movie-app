@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 //components
-import styles from "./MainNavigation.module.css";
+import styles from "./MainNavigation.module.scss";
 
 //assets
 import { Logo } from "../../assets/svg/Logo";

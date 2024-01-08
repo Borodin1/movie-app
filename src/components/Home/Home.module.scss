@@ -1,0 +1,34 @@
+.home{
+    @apply flex flex-col;
+
+    .home-title{
+        @apply ml-24 mt-4
+    }
+
+    .home-title h1,p{
+        @apply m-0;
+    }
+
+    .home-title h1{
+        @apply text-grey-50 font-inter text-6xl font-semibold
+    }
+
+    .home-title p {
+        @apply text-grey-300 font-poppins font-normal leading-6	
+    }
+
+    .home-search-input{
+        @apply flex items-center ml-24 mt-6
+    }
+
+    .home-search-input img {
+        @apply absolute ml-4
+    }
+
+    .home-search-input input{
+        @apply rounded-xl  
+        border-solid border-grey-700 bg-black-10 
+        w-80 flex py-3 px-10 items-center gap-4
+         text-grey-600 font-inter text-sm font-normal not-italic
+    }
+}

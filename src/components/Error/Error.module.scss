@@ -1,0 +1,22 @@
+.error{
+    @apply mt-12;
+
+    .error-img{
+        @apply flex justify-center;
+    }
+
+    .error-text{
+        @apply flex flex-col items-center;
+    }
+
+    .error-text h1 {
+        @apply text-grey-50 text-center font-poppins text-5xl font-semibold	mt-9 mb-4;
+    }
+    .error-text p {
+        @apply text-grey-200 text-center font-poppins text-xl leading-6;
+    }
+
+    .error-text img{
+        @apply mt-12;
+    }
+}

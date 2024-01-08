@@ -1,5 +1,5 @@
 //styles
-import styles from "./Home.module.css";
+import styles from "./Home.module.scss";
 
 //assets
 import search from "../../assets/vuesax/linear/search-normal.png";

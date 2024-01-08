@@ -1,0 +1,36 @@
+.movie-info{
+    @apply flex flex-col items-center;
+
+    .movie-info-background {
+        img{
+            @apply w-96;
+        }
+    }
+
+    .movie-path{
+        @apply rounded-3xl bg-bgColor-primary backdrop-filter-12 w-560px p-8 mt-80px m-path;
+
+        p{
+            @apply text-primary-200 font-inter text-xs not-italic font-normal;
+        }
+
+        h2{
+        @apply text-grey-50 font-inter not-italic text-3xl font-semibold
+        }
+    }
+
+    .movie{
+        @apply mt-20 flex flex-nowrap justify-evenly
+    }
+
+    .movie-description{
+        @apply flex flex-col justify-around;
+
+        h3{
+            @apply text-grey-50 font-inter text-2xl not-italic font-bold
+
+        }
+
+        }
+
+}

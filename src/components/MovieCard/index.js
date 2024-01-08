@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 //styles
-import styles from "./MovieCard.module.css";
+import styles from "./MovieCard.module.scss";
 
 //assets
 import star from "../../assets/vuesax/linear/star.png";

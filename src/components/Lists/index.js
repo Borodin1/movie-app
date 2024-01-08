@@ -2,7 +2,7 @@
 import { fetchify } from "../../helpers/fetchify";
 
 //style
-import styles from "./Lists.module.css";
+import styles from "./Lists.module.scss";
 
 export const Lists = ({ content, isFetched }) => {
   return (

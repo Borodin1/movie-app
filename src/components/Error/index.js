@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 //styles
-import styles from "./Error.module.css";
+import styles from "./Error.module.scss";
 
 //assets
 import { ErrorSVG } from "../../assets/svg/errorSvg";

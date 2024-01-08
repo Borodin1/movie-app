@@ -1,0 +1,28 @@
+.movie-info{
+    @apply flex rounded-xl pt-3	bg-bgColor-primary justify-center rounded-xl backdrop-filter w-72 ml-4 mt-5 items-center;
+
+    .movie-average{
+       @apply mt-1 ml-2 rounded-lg bg-bgColor-average backdrop-filter-4 inline-flex h-10 py-1 px-1 items-center absolute;
+
+       a{
+        @apply no-underline;
+        }
+    
+         p {
+            @apply text-warning-500 flex items-center text-xs font-normal not-italic leading-6;
+        }
+    
+        p > img{
+            @apply w-4;
+        }        
+    }
+
+     img{
+        @apply w-64 m-0 m-auto;
+    }
+
+     h1{
+        @apply text-grey-50 mt-1 text-center my-2 font-inter text-base not-italic font-normal ;
+    }
+   
+}

@@ -1,9 +1,0 @@
-.lists {
-  margin-bottom: 100px;
-}
-
-.lists-movies {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}

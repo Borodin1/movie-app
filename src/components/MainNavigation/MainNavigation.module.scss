@@ -1,0 +1,15 @@
+.header{
+    @apply flex items-center justify-around mt-4;
+    
+    .header-links ul{
+        @apply flex;
+
+        li{
+        @apply list-none ml-8;
+
+            a{
+                @apply no-underline text-grey-200 font-inter text-xl leading-loose;
+            }
+        }
+    }
+}
