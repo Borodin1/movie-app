@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { useGetMovieInfo } from "../../hooks/useGetMovieInfo";
 
 //styles
-import styles from "./MovieInfo.module.css";
+import styles from "./MovieInfo.module.scss";
 
 //assets
 import star from "../../assets/vuesax/linear/star.png";

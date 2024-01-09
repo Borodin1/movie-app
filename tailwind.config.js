@@ -20,8 +20,10 @@ module.exports = {
         },
         grey: {
           50: "var(--grey-50,#ebeef5)",
+          100: "var(--grey-100, #c3c8d4)",
           200: "var(--grey-200, #a8aebf)",
           300: "var(--grey-300, #8e95a9)",
+          400: "var(--grey-400, #767e94)",
           600: "var(--grey-600, #475069)",
           700: "var(--grey-700,#323b54)",
         },

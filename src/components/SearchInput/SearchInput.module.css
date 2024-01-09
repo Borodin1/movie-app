@@ -1,0 +1,31 @@
+.search-input {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 25px;
+  }
+  
+  .search-input img {
+    position: absolute;
+    margin-left: 15px;
+  }
+  
+  .search-input input {
+    border-radius: 12px;
+    border: 1px solid var(--grey-700, #323b54);
+    background: var(--black-10, rgba(0, 0, 0, 0.1));
+    width: 312px;
+    display: flex;
+    padding: 12px 40px;
+    align-items: center;
+    gap: 16px;
+  
+    color: var(--grey-600, #475069);
+  
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  

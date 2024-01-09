@@ -1,0 +1,15 @@
+.content-text{
+    @apply flex flex-col items-center;
+    
+    h1{
+        @apply text-grey-50 font-poppins text-6xl not-italic font-bold m-0
+    }
+
+    p{
+        @apply text-grey-300 font-poppins text-base not-italic font-normal m-0
+    }
+}
+
+.content-pages{
+    @apply flex flex-col items-center
+}
