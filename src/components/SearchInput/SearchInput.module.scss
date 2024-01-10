@@ -1,0 +1,14 @@
+.search-input{
+    @apply flex items-center ml-24 mt-6
+}
+
+.search-input img {
+    @apply absolute ml-4
+}
+
+.search-input input{
+    @apply rounded-xl  
+    border-solid border-grey-700 bg-black-10 
+    w-80 flex py-3 px-10 items-center gap-4
+     text-grey-600 font-inter text-sm font-normal not-italic
+}

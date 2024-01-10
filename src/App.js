@@ -1,8 +1,6 @@
 //Core
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import "./App.css";
-
 //pages
 import { RootLayout } from "./pages/RootLayout";
 import { HomePage } from "./pages/HomePage";

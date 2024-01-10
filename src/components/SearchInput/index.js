@@ -1,5 +1,5 @@
 import Input from "../elements/input";
-import styles from "./SearchInput.module.css";
+import styles from "./SearchInput.module.scss";
 
 import search from "../../assets/vuesax/linear/search-normal.png";
 
