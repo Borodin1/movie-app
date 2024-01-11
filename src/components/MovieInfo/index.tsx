@@ -10,12 +10,12 @@ import styles from "./MovieInfo.module.scss";
 //assets
 import star from "../../assets/vuesax/linear/star.png";
 
-export const MovieInfo = () => {
+export const MovieInfo:React.FC = () => {
   const params = useParams();
 
-  const { data } = useGetMovieInfo(params.idFilm);
+  const { data } = useGetMovieInfo(params.idFilm as string);
 
-  const genresString = data?.genres?.map((genre) => genre.name).join(", ");
+  const genresString = data?.genres?.map((genre:{name:string}) => genre.name).join(", ");
 
   return (
     <div className={styles["movie-info"]}>

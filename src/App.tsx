@@ -33,7 +33,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-function App() {
+const App:React.FC=()=> {
   return <RouterProvider router={router} />;
 }
 

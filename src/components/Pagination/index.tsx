@@ -1,6 +1,12 @@
 import { Pagination, Stack } from "@mui/material";
 
-export const PaginationList = ({
+interface IPagination{
+  total_pages:number,
+  currentPage:number,
+  setCurrentPage:(page:number)=>void
+}
+
+export const PaginationList:React.FC<IPagination> = ({
   total_pages,
   currentPage,
   setCurrentPage,

@@ -8,7 +8,7 @@ import styles from "./Error.module.scss";
 import { ErrorSVG } from "../../assets/svg/errorSvg";
 import button from "../../assets/Button.png";
 
-export const Error = () => {
+export const Error:React.FC = () => {
   return (
     <div className={styles["error"]}>
       <div className={styles["error-img"]}>

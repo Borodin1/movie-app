@@ -7,7 +7,10 @@ import styles from "./MovieCard.module.scss";
 //assets
 import star from "../../assets/vuesax/linear/star.png";
 
-export const MovieCard = ({ id, vote_average, poster_path, title, name }) => {
+//types
+import { IContentModel } from 'types/ContentModel';
+
+export const MovieCard:React.FC<IContentModel> = ({ id, vote_average, poster_path, title, name }) => {
   return (
     <div key={id} className={styles["movie-info"]}>
       <Link to={`/movies/movie/${id}`}>

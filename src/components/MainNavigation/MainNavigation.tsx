@@ -7,7 +7,7 @@ import styles from "./MainNavigation.module.scss";
 //assets
 import { Logo } from "../../assets/svg/Logo";
 
-export const MainNavigation = () => {
+export const MainNavigation:React.FC = () => {
   return (
     <div className={styles["header"]}>
       <div className={styles["header-title"]}>

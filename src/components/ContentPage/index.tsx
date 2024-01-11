@@ -1,11 +1,12 @@
 //Components
+import { IContentPage } from 'types/ContentModel';
 import { PaginationList } from "../Pagination";
 import { SearchInput } from "../SearchInput";
 
 //assets
 import styles from "./Content.module.scss";
 
-export const ContentPage = (props) => {
+export const ContentPage:React.FC<IContentPage> = (props) => {
   const {
     title,
     searchValue,

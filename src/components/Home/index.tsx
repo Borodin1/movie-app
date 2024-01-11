@@ -12,18 +12,19 @@ import Input from "../elements/input";
 //hooks
 import { useGetMovies } from "../../hooks/useGetMovies";
 import { UseSearchValue } from "../../hooks/useSearchValue";
+import { IContentModel } from 'types/ContentModel';
 
-export const Home = () => {
+export const Home:React.FC = () => {
   const [searchValue, onSearchHandle] = UseSearchValue("");
   const { data, isFetched } = useGetMovies();
 
   const moviesJSX = data?.results
     ?.filter(
-      (item) =>
+      (item: { title: string; }) =>
         item.title &&
         item.title.toLowerCase().includes(searchValue.toLowerCase())
     )
-    ?.map((movie) => {
+    ?.map((movie:IContentModel) => {
       return <MovieCard {...movie} key={movie.id} />;
     });
 

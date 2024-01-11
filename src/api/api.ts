@@ -18,14 +18,14 @@ export const api = {
       );
       return movies;
     },
-    async getAllMovies(page) {
+    async getAllMovies(page:number) {
       const { data: moviesP } = await axios.get(
         `https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=${page}`,
         options
       );
       return moviesP;
     },
-    async getMovieInfo(id) {
+    async getMovieInfo(id:string|number) {
       const { data } = await axios.get(
         `https://api.themoviedb.org/3/movie/${id}?language=en-US`,
         options
@@ -34,7 +34,7 @@ export const api = {
     },
   },
   tvshows: {
-    async getTVShows(page) {
+    async getTVShows(page:number) {
       const { data: tvshows } = await axios.get(
         `https://api.themoviedb.org/3/tv/popular?language=en-US&page=${page}`,
         options

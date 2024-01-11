@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 //components
 import { MainNavigation } from "../../components/MainNavigation/MainNavigation";
 
-export const RootLayout = () => {
+export const RootLayout:React.FC = () => {
   return (
     <>
       <MainNavigation />

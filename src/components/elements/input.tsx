@@ -1,4 +1,7 @@
-const Input = ({ type, value, handleChange, placeholder }) => {
+import { I_Input } from 'types/input';
+
+
+const Input:React.FC<I_Input> = ({ type, value, handleChange, placeholder }) => {
   return (
     <input
       type={type}

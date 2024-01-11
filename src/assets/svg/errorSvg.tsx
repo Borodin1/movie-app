@@ -1,4 +1,4 @@
-export const ErrorSVG = () => {
+export const ErrorSVG:React.FC = () => {
   return (
     <svg
       width="400"
