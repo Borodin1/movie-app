@@ -41,5 +41,12 @@ export const api = {
       );
       return tvshows;
     },
+    async getTVShowInfo(id:string|number){
+      const {data:tvshowDetail} = await axios.get(
+        `https://api.themoviedb.org/3/tv/${id}`,
+        options
+      );
+      return tvshowDetail
+    }
   },
 };

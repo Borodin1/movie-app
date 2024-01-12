@@ -6,7 +6,7 @@ import search from "../../assets/vuesax/linear/search-normal.png";
 
 //сomponents
 import { Lists } from "../Lists";
-import { MovieCard } from "../MovieCard";
+import { Card } from "../Card";
 import Input from "../elements/input";
 
 //hooks
@@ -25,7 +25,7 @@ export const Home:React.FC = () => {
         item.title.toLowerCase().includes(searchValue.toLowerCase())
     )
     ?.map((movie:IContentModel) => {
-      return <MovieCard {...movie} key={movie.id} />;
+      return <Card part='Movies'{...movie} key={movie.id} />;
     });
 
   return (

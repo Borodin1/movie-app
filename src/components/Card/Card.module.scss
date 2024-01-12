@@ -1,7 +1,7 @@
-.movie-info{
+.card-info{
     @apply flex rounded-xl pt-3	bg-bgColor-primary justify-center rounded-xl backdrop-filter w-72 ml-4 mt-5 items-center;
 
-    .movie-average{
+    .card-average{
        @apply mt-1 ml-2 rounded-lg bg-bgColor-average backdrop-filter-4 inline-flex h-10 py-1 px-1 items-center absolute;
 
        a{

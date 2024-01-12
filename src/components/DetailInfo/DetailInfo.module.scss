@@ -1,0 +1,63 @@
+.detail-info-background{
+    @apply flex flex-col items-center mt-2;
+
+        img{
+            @apply w-1200;
+        }
+    }
+
+    .detail-path{
+        @apply rounded-3xl bg-bgColor-primary backdrop-filter-12 w-560 p-8  m-path;
+
+        p{
+            @apply text-primary-200 font-inter text-xs not-italic font-normal;
+        }
+
+        h2{
+        @apply text-grey-50 font-inter not-italic text-3xl font-semibold
+        }
+    }
+
+    .detail{
+        @apply mt-20 flex flex-nowrap justify-evenly
+    }
+
+    .detail-description{
+        @apply flex flex-col justify-around;
+
+        h3{
+            @apply text-grey-50 font-inter text-2xl not-italic font-bold
+
+        }
+        p{
+            @apply w-96 text-grey-300 font-inter text-xl not-italic font-normal	
+        } 
+        }
+
+        .detail-ratings{
+            p{
+                @apply flex w-16 py-1 px-2 items-center gap-1 rounded-lg bg-bgColor-average backdrop-filter-4
+            }
+        }
+
+        .detail-date {
+            h2{
+                @apply text-grey-400 m-0 font-inter text-base font-normal not-italic
+            }
+
+            p{
+                @apply text-grey-100 m-0 font-inter text-xl not-italic font-normal
+            }
+        }
+
+        .detail-runtime{
+            h2{
+                @apply text-grey-400 m-0 font-inter text-xl font-normal not-italic
+            }
+        }
+
+        .detail-genres{
+            h2{
+                @apply text-grey-400 m-0 font-inter text-base not-italic font-normal
+            }
+        }

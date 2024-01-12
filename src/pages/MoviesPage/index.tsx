@@ -2,11 +2,11 @@ import { useState } from "react";
 import { ContentPage } from "components/ContentPage";
 import { UseSearchValue } from "hooks/useSearchValue";
 import { useGetAllMovies } from "hooks/useGetAllMovies";
-import { MovieCard } from "components/MovieCard";
+import { Card } from "components/Card";
 import { Lists } from "components/Lists";
 import { IContentModel } from 'types/ContentModel';
 
-export const MoviesPage:React.FC = () => {
+const MoviesPage:React.FC = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
 
   const [searchValue, onSearchHandle] = UseSearchValue("");
@@ -19,7 +19,7 @@ export const MoviesPage:React.FC = () => {
         item.title.toLowerCase().includes(searchValue.toLowerCase())
     )
     .map((movie:IContentModel) => {
-      return <MovieCard key={movie.id} {...movie} />;
+      return <Card part='Movies' key={movie.id} {...movie} />;
     });
   return (
     <ContentPage
@@ -33,3 +33,5 @@ export const MoviesPage:React.FC = () => {
     </ContentPage>
   );
 };
+
+export default MoviesPage

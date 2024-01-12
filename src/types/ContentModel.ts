@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 
 export interface IContentModel{
     id:number, 
+    part?:string,
     vote_average: number, 
     poster_path:string, 
     title?:string,
